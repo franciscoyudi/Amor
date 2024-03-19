@@ -1,0 +1,167 @@
+@font-face{
+  font-family: 'valentine'; 
+  src: url('jully julia.otf') format('opentype');
+  font-weight: normal;
+  
+}
+@font-face {
+  font-family: 'h2';
+  src: url('/') format('opentype');
+  font-weight: normal;
+
+}
+*{
+  margin:0;
+  padding: 0;
+  
+}
+
+body {
+  
+  height: 100vh;
+  background: linear-gradient(45deg , #F09B57E6,#3F2D75E6) no-repeat;
+  background-size:cover;
+  }
+
+.login{
+  background: rgba(0, 0, 0, 0.25);
+  padding: 30px;
+  min-width: 350px;
+  max-width: 650px;
+  border-radius: 30px;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  z-index: 4;
+  
+  box-shadow: 10px 10px 50px #00000069;
+}
+h2 {
+  color: white;
+  cursor: pointer;
+  background: rgba(255, 35, 35, 0.49);
+  padding: 10px;
+  border-radius: 10px;
+  font-family: h2;
+  
+}
+label {
+  display: flex;
+  margin-top: 10px
+  
+}
+#user,#pass {
+  margin-top: 5px;
+  width: 250px;
+  height: 25px;
+  border: 1px solid rgba(0,0,0,0.14);
+  border-radius: 10px;
+  cursor:auto;
+  padding: 0px 5px 0px 10px;
+}
+#error{
+  color: red;
+  background: white;
+ 
+  padding: 5px;
+  border-radius: 10px;
+}
+#but {
+  width: 300px;
+  height: 30px;
+  margin-top: 20px;
+  border-radius: 7px;
+  display: block;
+  border: none;
+  transition: 300ms;
+  cursor: pointer;
+  background: rgba(255, 35, 35, 0.49);
+  
+}
+#but:hover{
+  transform: scale(1.1)
+  
+
+}
+#res{
+  
+  background: rgba(0, 0, 0, 0.25);
+  padding: 20px;
+  min-width: 350px;
+  max-width: 650px;
+  border-radius: 40px;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  z-index: 4;
+  
+  box-shadow: 10px 10px 50px #00000069;
+
+}
+#nome{
+  display: inline;
+}
+  
+#res p{
+  line-height: 1.5em;
+  font-family: Valentine;
+  font-size: 1.5em;
+  text-align: justify;
+}
+#cont p {
+  line-height: 1.5em;
+  
+  font-size: 1.2em;
+  text-align: justify;
+}
+.login main{
+  background: url(lindo.jpg) no-repeat;
+  background-position: center top;
+  background-size: cover;
+  padding: 20px;
+  border-radius: 20px;
+}
+#res main {
+  background: white no-repeat;
+  background-size: cover;
+  padding: 20px;
+  border-radius: 20px;
+}
+#cont{
+    
+  background: rgba(0, 0, 0, 0.25);
+  padding: 20px;
+  min-width: 350px;
+  max-width: 650px;
+  border-radius: 40px;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  z-index: 4;
+  display: none;
+  box-shadow: 10px 10px 50px #00000069;
+}
+#cont main{
+    background: white no-repeat;
+    background-size: cover;
+    padding: 20px;
+    border-radius: 20px;
+}
+.igreja{
+  border: 3px solid darkred;
+  border-radius: 10px;
+  margin: 20px 0px 20px 0px;
+  text-align: center;
+}
+.gif {
+  border: 3px solid darkred;
+  border-radius: 10px;
+  text-align: center;
+  display: inline;
+  margin: 20px 0px 20px 0px;
+
+}
+.gifdiv{
+  display: flex;
+  justify-content: center;
+}
